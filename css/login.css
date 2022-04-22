@@ -18,17 +18,84 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     background-color: rgb(8, 150, 155);
 }
 
 .login-box{
     position: relative;
-    height: 350px;
-    width: 400px;
+    height: 350px;              
+    width: 400px;             
 
     border-radius: 3px; 
     background-color: white;
+}
+
+.form-box{
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-box .input-line{
+    height: 10%;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.form-box .input-line input{
+    border: none;
+    width: 100%;
+
+    color: rgb(46, 51, 58);
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(46, 51, 58);
+}
+
+.form-box .input-line input:focus, input:after{
+    outline: none;
+    color: rgb(46, 51, 58);
+}
+
+.form-box .input-line input::placeholder{
+    color: rgb(46, 51, 58);
+}
+
+.form-box .input-line i{
+    padding-bottom: 11px;
+    padding-right: 5px;
+    
+    border-bottom: 1px solid rgb(46, 51, 58);
+    color: rgb(46, 51, 58);
+}
+
+.form-box .input-line .password{
+    cursor: pointer;
+}
+
+.form-box .button{
+    position: relative;
+    height: 20%;
+    width: 80%;
+
+    color: white;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-top: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(8, 150, 155);
 }
 
 .social-login{
@@ -56,4 +123,31 @@ body{
 
     text-decoration: none;
     color: white;
+}
+
+.social-login a:hover{
+    text-decoration: underline;
+}
+
+.register-box{
+    position: relative;
+    height: 54px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-box p{
+    color: white;
+}
+
+.register-box a{
+    text-decoration: none;
+    color: rgb(46, 51, 58);
+}
+
+.register-box a:hover{
+    text-decoration: underline;
 }
