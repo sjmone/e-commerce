@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(8, 150, 155);
+}
+
+.register-box{
+    position: relative;
+    height: 350px;              
+    width: 400px;             
+
+    border-radius: 3px; 
+    background-color: white;
+}
+
+.form-box{
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: green;
+}
+
+.social-register{
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 15px;
+    color: white;
+
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(46, 51, 58);
+}
+
+.social-register a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+}
+
+.social-register a:hover{
+    text-decoration: underline;
+}
+
+.login-box{
+    position: relative;
+    height: 54px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box p{
+    color: white;
+}
+
+.login-box a{
+    text-decoration: none;
+    color: rgb(46, 51, 58);
+}
+
+.login-box a:hover{
+    text-decoration: underline;
+}
