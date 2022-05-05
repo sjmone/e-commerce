@@ -55,6 +55,9 @@ body{
     width: 48%;
     margin-left: 0;
     margin-right: auto;
+
+    color: rgb(46, 51, 58);
+
     border: none;
     border-bottom: 1px solid rgb(46, 51, 58);
 }
@@ -63,8 +66,15 @@ body{
     width: 48%;
     margin-right: 0;
     margin-left: auto;
+
+    color: rgb(46, 51, 58);
+
     border: none;
     border-bottom: 1px solid rgb(46, 51, 58);
+}
+
+.form-box .input-box1 .testo1:focus, .testo1:after, .testo2:focus, .testo2:after{
+    outline: none;
 }
 
 .form-box .input-box2{
@@ -80,14 +90,14 @@ body{
 .form-box .input-box2 input{
     width: 80%;
 
+    color: rgb(46, 51, 58);
+
     border: none;
     border-bottom: 1px solid rgb(46, 51, 58);
 }
 
-.form-box .input-box1 input:focus, input:after, input::placeholder,
-.form-box .input-box2 input:focus, input:after, input::placeholder{
+.form-box .input-box2 input:focus, input:after{
     outline: none;
-    color: rgb(46, 51, 58);
 }
 
 .form-box .button{
